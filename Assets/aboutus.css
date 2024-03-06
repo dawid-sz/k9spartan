@@ -1,0 +1,31 @@
+#about {
+    background-color: rgb(29,29,29);
+}
+
+.headtext p {
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.about-text {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5vh;
+}
+
+.about-text p {
+    color: white;
+    font-family: var(--secondary-font);
+    font-weight: 200;
+    text-align: justify;
+    background-image: url('../Images/pawprint.png');
+    background-position: center;
+    background-size: 60vw;
+    background-repeat: no-repeat;
+}

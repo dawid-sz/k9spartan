@@ -1,0 +1,18 @@
+#news {
+    background-color: rgb(214,214,214);
+}
+
+#news p {
+    color: black;
+}
+
+.news-img {
+    width: 30vw;
+    height: 30vw;
+    border: 1px solid black;
+}
+
+.news-img img {
+    clip-path: circle();
+    width: 30vw;
+}

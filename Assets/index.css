@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Karla', serif;
+    scroll-behavior: smooth;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: var(--primary-font);
+    font-weight: 200;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#main {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../Images/man-89350.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: var(--primary-font);
+}
+
+.we-are {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    margin-top: 30vh;
+    margin-bottom: 1rem;
+}
+
+div.text p:nth-child(1) {
+    font-weight: 200;
+}
+
+div.text p:nth-child(2) {
+    font-weight: 700;
+}
+
+hr.rounded {
+    border: 1px solid white;
+    width: 50%;
+}
+
+.socials {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 30vh;
+}
+
+.fixed-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    font-family: var(--primary-font);
+    font-weight: 200;
+}
+
+.fixed-footer a {
+    text-decoration: none;
+    color: white;
+}
+  
