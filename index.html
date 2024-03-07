@@ -10,6 +10,7 @@
     <script async src="./Assets/index.js"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="icon" href="./Images/pawprint.png" type="image/x-icon"/>
     <title>K9 Spartan</title>
 </head>
 <body>
@@ -58,6 +59,7 @@
                 <p>Trening Obrony</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quam autem commodi incidunt veritatis, laudantium, dicta sed tenetur ullam nobis in, explicabo eius eum vitae at molestias dolores laboriosam beatae!</p>
             </div>
+            <hr class="news-separator">
             <div class="news-content">
                 <div class="news-img">
                     <img src="./Images/newsSection/dog2.jpg" alt="">
@@ -65,6 +67,58 @@
                 <p>Spacer Socjalizacyjny</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eveniet impedit delectus consectetur eaque, excepturi eius. Nihil rem cumque corporis porro voluptatibus nesciunt molestiae est! Laudantium iure quidem provident quos?</p>
             </div>
+            <hr class="news-separator">
+            <div class="news-content">
+                <div class="news-img">
+                    <img src="./Images/newsSection/dog3.jpg" alt="">
+                </div>
+                <p>Konsultacje Indywidualne</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eveniet impedit delectus consectetur eaque, excepturi eius. Nihil rem cumque corporis porro voluptatibus nesciunt molestiae est! Laudantium iure quidem provident quos?</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="headtext">
+            <p>Napisz do nas</p>
+        </div>
+        <div class="contact-container">
+            <form method="post" action="contact-form-process.php">
+                <label for="name">Imie i Nazwisko</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nazywam sie..."
+                  required
+                  autocomplete="off"
+                />
+                <label for="dog-name">Imie psiaka</label>
+                <input
+                  type="text"
+                  id="dog-name"
+                  name="dog-name"
+                  placeholder="Moj psiak nazywa sie..."
+                  autocomplete="off"
+                />
+                <label for="email">Adres E-Mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Moj adres e-mail to..."
+                  required
+                  autocomplete="off"
+                />
+                <label for="subject">Twoja wiadomosc</label>
+                <textarea
+                  name="subject"
+                  id="subject"
+                  placeholder="Tutaj napisz wiadomosc..."
+                  required
+                ></textarea>
+  
+                <input type="submit" value="Wyslij" />
+              </form>
         </div>
     </section>
     <footer class="fixed-footer">
