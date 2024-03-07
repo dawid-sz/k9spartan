@@ -7,6 +7,8 @@ I'll use the vanilla technologies HTML, CSS and JS. No frameworks.
 
 Timeline:
 
+Working primarily on mobile view.
+
 06.03.2024
 - Creating the repo and the initial files
 - main, about us and news sections created
@@ -15,3 +17,7 @@ Timeline:
 07.03.2024
  - fixing issues regarding news section on mobile
  - adding more content to the sections
+ - more content in the about us section
+ - pictures of the team members added
+ - pictures of the dogs added
+ - socials and phone number linked to the icons
