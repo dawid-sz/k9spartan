@@ -82,6 +82,11 @@ hr.rounded {
     margin-bottom: 30vh;
 }
 
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
 .fixed-footer {
     text-align: center;
     padding: 10px;

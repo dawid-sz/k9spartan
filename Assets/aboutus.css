@@ -1,5 +1,7 @@
 #about {
     background-color: rgb(29,29,29);
+    color: white;
+    font-family: var(--secondary-font);
 }
 
 .headtext p {
@@ -16,16 +18,86 @@
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 .about-text p {
-    color: white;
-    font-family: var(--secondary-font);
     font-weight: 200;
     text-align: justify;
     background-image: url('../Images/pawprint.png');
     background-position: center;
     background-size: 60vw;
     background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 3vh;
+}
+
+hr.about-separator {
+    border: 1px thin white;
+    width: 40%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.person-img, .dog-img {
+    width: 30vw;
+    height: 30vw;
+}
+
+.person-img img {
+    clip-path: circle();
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-person {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    padding-bottom: 3vh;
+}
+
+.team-person > :nth-child(2) {
+    font-size: 4vw;
+}
+
+.dog-img img {
+    clip-path: circle();
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dogs-section {
+    display: flex;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-bottom: 3vh;
+}
+
+.dog-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.dog-container p {
+    text-align: center;
+    padding-top: 1vh;
 }
