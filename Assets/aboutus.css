@@ -8,7 +8,7 @@
     text-align: center;
     font-family: var(--secondary-font);
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 7vw;
     color: white;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -32,7 +32,7 @@
 
 h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 4.5vw;
     font-weight: 600;
     padding-bottom: 3vh;
 }
@@ -100,4 +100,50 @@ hr.about-separator {
 .dog-container p {
     text-align: center;
     padding-top: 1vh;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-text p {
+        font-size: 3vw;
+        font-weight: 200;
+        text-align: justify;
+        background-image: url('../Images/pawprint.png');
+        background-position: center;
+        background-size: 50vw;
+        background-repeat: no-repeat;
+    }
+
+    .team-person > :nth-child(2) {
+        font-size: 3vw;
+    }
+
+    .dog-container p {
+        font-size: 3vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    #about .headtext p {
+        font-size: 6vw;
+    }
+
+    .person-img {
+        margin-left: 10vw;
+    }
+
+    .person-img, .dog-img {
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .person-img img {
+        clip-path: circle();
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }

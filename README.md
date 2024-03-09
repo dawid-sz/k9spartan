@@ -21,3 +21,8 @@ Working primarily on mobile view.
  - pictures of the team members added
  - pictures of the dogs added
  - socials and phone number linked to the icons
+
+
+09.03.2024
+- adding mobile view breakpoints
+- adjusting the tablet view of the sections

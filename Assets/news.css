@@ -62,3 +62,37 @@ hr.news-separator {
     width: 50%;
     margin-bottom: 2vh;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #news .headtext p {
+        font-size: 6vw;
+    }
+
+    .news-img {
+        width: 25vw;
+        height: 25vw;
+    }
+    
+    .news-img img {
+        clip-path: circle();
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .news-content > :nth-child(2) {
+        font-size: 4vw;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .news-content > :nth-child(3) {
+        font-size: 2.5vw;
+    }
+    
+    .news-container > :nth-child(5) {
+        padding-bottom: 5vh;
+    }
+}
+
