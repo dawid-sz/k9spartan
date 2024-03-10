@@ -26,3 +26,8 @@ Working primarily on mobile view.
 09.03.2024
 - adding mobile view breakpoints
 - adjusting the tablet view of the sections
+
+
+11.03.2024
+- adjusting view on desktop
+- adjusting main section view

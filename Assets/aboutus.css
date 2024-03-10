@@ -10,7 +10,7 @@
     font-weight: 700;
     font-size: 7vw;
     color: white;
-    padding-top: 2vh;
+    padding-top: 3vh;
     padding-bottom: 2vh;
 }
 
@@ -107,12 +107,7 @@ hr.about-separator {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-text p {
         font-size: 3vw;
-        font-weight: 200;
-        text-align: justify;
-        background-image: url('../Images/pawprint.png');
-        background-position: center;
         background-size: 50vw;
-        background-repeat: no-repeat;
     }
 
     .team-person > :nth-child(2) {
@@ -145,5 +140,24 @@ hr.about-separator {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+}
+
+/* Large devices (Laptops/Desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .headtext p {
+        font-size: 3vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    .about-text {
+        width: 50vw;
+    }
+
+    .about-text p {
+        background-size: 6vw;
     }
 }

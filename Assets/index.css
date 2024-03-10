@@ -42,6 +42,8 @@
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../Images/man-89350.jpg');
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
+    min-height: 100svh;
     font-family: var(--primary-font);
 }
 
