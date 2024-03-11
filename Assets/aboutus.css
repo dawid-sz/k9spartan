@@ -134,13 +134,6 @@ hr.about-separator {
         width: 20vw;
         height: 20vw;
     }
-    
-    .person-img img {
-        clip-path: circle();
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 }
 
 /* Large devices (Laptops/Desktops, 992px and up) */
@@ -159,5 +152,28 @@ hr.about-separator {
 
     .about-text p {
         background-size: 6vw;
+    }
+
+    .team-container {
+        width: 50vw;
+    }
+
+    .person-img, .dog-img {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .team-person > :nth-child(2) {
+        font-size: 1.2vw;
+    }
+
+    .dogs-section {
+        justify-content: center;
+        gap: 4vw;
+        padding-bottom: 5vh;
+    }
+
+    .dog-container p {
+        font-size: 1.2vw;
     }
 }

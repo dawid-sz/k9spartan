@@ -31,3 +31,8 @@ Working primarily on mobile view.
 11.03.2024
 - adjusting view on desktop
 - adjusting main section view
+
+
+12.03.2024
+- adjusted desktop media query for about us section
+- desktop media query adjusted for news section
