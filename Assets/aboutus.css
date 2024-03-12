@@ -19,15 +19,15 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3vh;
+    background-image: url('../Images/pawprint.png');
+    background-position: center;
+    background-size: 60vw;
+    background-repeat: no-repeat;
 }
 
 .about-text p {
     font-weight: 200;
     text-align: justify;
-    background-image: url('../Images/pawprint.png');
-    background-position: center;
-    background-size: 60vw;
-    background-repeat: no-repeat;
 }
 
 h2 {
@@ -105,9 +105,12 @@ hr.about-separator {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-text {
+        background-size: 50vw;
+    }
+
     .about-text p {
         font-size: 3vw;
-        background-size: 50vw;
     }
 
     .team-person > :nth-child(2) {
@@ -148,10 +151,14 @@ hr.about-separator {
 
     .about-text {
         width: 50vw;
+        background-image: url("../Images/pawprintRotate.png");
+        background-size: 9vw;
+        background-position: right;
     }
 
     .about-text p {
-        background-size: 6vw;
+        width: 85%;
+        text-align: left;
     }
 
     .team-container {
@@ -175,5 +182,12 @@ hr.about-separator {
 
     .dog-container p {
         font-size: 1.2vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about-text {
+        background-size: 6vw;
     }
 }

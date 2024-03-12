@@ -36,3 +36,7 @@ Working primarily on mobile view.
 12.03.2024
 - adjusted desktop media query for about us section
 - desktop media query adjusted for news section
+
+
+13.03.2024
+- media query for contact and about us section adjusted for large screens

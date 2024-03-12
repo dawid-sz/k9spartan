@@ -55,5 +55,12 @@ input[type="submit"] {
     margin-right: auto;
     font-family: var(--secondary-font);
     padding-bottom: 4vh;
+  }
 }
+
+/* Large devices (Laptops/Desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact-container {
+    width: 30vw;
+  }
 }

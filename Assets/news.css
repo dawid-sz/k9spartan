@@ -135,3 +135,11 @@ hr.news-separator {
         grid-row: 1;
     }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .news-img {
+        width: 13vw;
+        height: 13vw;
+    }
+}
