@@ -45,3 +45,8 @@ Working primarily on mobile view.
 14.03.2024
 - navbar mediaquery adjusted, no hamburger menu on a tablet and bigger screens
 - styled contact section
+
+
+15.03.2024
+- changing media query breakpoints
+- adjusting the fonts and sizes of the sections

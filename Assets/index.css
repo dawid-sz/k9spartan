@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    font-size: calc(16px + 0.390625vw);
+}
+
 .topnav {
     overflow: hidden;
     background-color: black;
@@ -26,7 +30,6 @@
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.2rem;
     display: block;
 }
 
@@ -55,19 +58,20 @@
 }
 
 .text {
-    font-size: 7.5vw;
     text-align: center;
     color: white;
-    margin-top: 30vh;
+    margin-top: 40vh;
     margin-bottom: 1rem;
 }
 
-div.text p:nth-child(1) {
+div.text h1:nth-child(1) {
     font-weight: 200;
+    font-size: 8vw;
 }
 
-div.text p:nth-child(2) {
+div.text h2:nth-child(2) {
     font-weight: 700;
+    font-size: 7vw;
 }
 
 hr.rounded {
@@ -81,7 +85,6 @@ hr.rounded {
     gap: 2rem;
     font-size: 5vw;
     margin-top: 1rem;
-    margin-bottom: 30vh;
 }
 
 .socials a {
@@ -102,61 +105,84 @@ hr.rounded {
     color: white;
 }
   
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .text {
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: calc(18px + 0.390625vw);
+    }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
+    body {
+        font-size: calc(19px + 0.390625vw);
+    }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    div.text h1:nth-child(1) {
         font-size: 7vw;
-        text-align: center;
-        color: white;
-        margin-top: 30vh;
-        margin-bottom: 1rem;
     }
-
-    .topnav {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .topnav #myLinks {
-        display: inline-flex;
-    }
-
-    .topnav a.icon {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 991px) {
-    .topnav {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .topnav #myLinks {
-        display: inline-flex;
-    }
-
-    .topnav a.icon {
-        display: none;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .text {
-        font-size: 4vw;
-        text-align: center;
-        color: white;
-        margin-top: 30vh;
-        margin-bottom: 1rem;
+    
+    div.text h2:nth-child(2) {
+        font-size: 6vw;
     }
 
     .socials {
-        color: white;
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    body {
+        font-size: calc(21px + 0.390625vw);
+    }
+
+    .topnav {
         display: flex;
-        gap: 2vw;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    div.text h1:nth-child(1) {
+        font-size: 5vw;
+    }
+    
+    div.text h2:nth-child(2) {
+        font-size: 4vw;
+    }
+
+    .socials {
         font-size: 2vw;
-        margin-top: 1rem;
-        margin-bottom: 30vh;
     }
 }

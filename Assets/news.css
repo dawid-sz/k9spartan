@@ -88,7 +88,7 @@ hr.news-separator {
     }
 
     .news-content > :nth-child(3) {
-        font-size: 2.5vw;
+        font-size: 1.2rem;
     }
     
     .news-container > :nth-child(5) {
@@ -133,6 +133,10 @@ hr.news-separator {
     .news-container > :nth-child(3) >:nth-child(3) {
         grid-column: 1;
         grid-row: 1;
+    }
+
+    .news-content > :nth-child(3) {
+        font-size: 1.3rem;
     }
 }
 

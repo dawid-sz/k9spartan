@@ -76,6 +76,6 @@ textarea {
 /* Large devices (Laptops/Desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .contact-container {
-    width: 30vw;
+    width: 50vw;
   }
 }

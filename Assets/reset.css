@@ -45,18 +45,12 @@ table {
 
 /* MEDIA QUERY BREAKE POINTS */
 
-/* Extra small devices (phones, 400px and down) */
-@media only screen and (max-width: 400px) {
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
-/* Small devices (potrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
 }
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-}
-/* Large devices (Laptops/Desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 1536px) {
 }
