@@ -40,3 +40,8 @@ Working primarily on mobile view.
 
 13.03.2024
 - media query for contact and about us section adjusted for large screens
+
+
+14.03.2024
+- navbar mediaquery adjusted, no hamburger menu on a tablet and bigger screens
+- styled contact section

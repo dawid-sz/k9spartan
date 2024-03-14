@@ -123,41 +123,39 @@
         </div>
         <div class="contact-container">
             <form method="post" action="contact-form-process.php">
-                <label for="name">Imie i Nazwisko</label>
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Nazywam sie..."
+                  placeholder="NAZYWAM SIE..."
                   required
                   autocomplete="off"
                 />
-                <label for="dog-name">Imie psiaka</label>
                 <input
                   type="text"
                   id="dog-name"
                   name="dog-name"
-                  placeholder="Moj psiak nazywa sie..."
+                  placeholder="MOJ PSIAK WABI SIE..."
                   autocomplete="off"
                 />
-                <label for="email">Adres E-Mail</label>
                 <input
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="Moj adres e-mail to..."
+                  placeholder="MOJ ADRES E-MAIL TO..."
                   required
                   autocomplete="off"
                 />
-                <label for="subject">Twoja wiadomosc</label>
                 <textarea
                   name="subject"
                   id="subject"
-                  placeholder="Tutaj napisz wiadomosc..."
+                  placeholder="TUTAJ NAPISZ WIADOMOSC..."
                   required
                 ></textarea>
-  
-                <input type="submit" value="Wyslij" />
+
+                <button class="btn-send" id="btn-submit">
+                    <span>WYSLIJ</span>
+                </button>
               </form>
         </div>
     </section>

@@ -111,6 +111,34 @@ hr.rounded {
         margin-top: 30vh;
         margin-bottom: 1rem;
     }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
