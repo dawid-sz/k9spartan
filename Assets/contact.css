@@ -62,8 +62,7 @@ textarea {
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .contact-container {
     width: 70vw;
     margin-left: auto;
@@ -73,9 +72,11 @@ textarea {
   }
 }
 
-/* Large devices (Laptops/Desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
   .contact-container {
     width: 50vw;
   }
+}
+
+@media only screen and (min-width: 1536px) {
 }

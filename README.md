@@ -50,3 +50,7 @@ Working primarily on mobile view.
 15.03.2024
 - changing media query breakpoints
 - adjusting the fonts and sizes of the sections
+
+
+16.03.2024
+- adjusting media query breakpoints for tablets

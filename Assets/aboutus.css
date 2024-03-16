@@ -4,14 +4,18 @@
     font-family: var(--secondary-font);
 }
 
-.headtext p {
+h2 {
     text-align: center;
     font-family: var(--secondary-font);
     font-weight: 700;
-    font-size: 7vw;
     color: white;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.headtext h2 {
+    padding-top: 3rem;
 }
 
 .about-text {
@@ -21,7 +25,7 @@
     padding-bottom: 3vh;
     background-image: url('../Images/pawprint.png');
     background-position: center;
-    background-size: 20vh;
+    background-size: 50vw;
     background-repeat: no-repeat;
 }
 
@@ -30,17 +34,11 @@
     text-align: justify;
 }
 
-h2 {
-    text-align: center;
-    font-size: 4.5vw;
-    font-weight: 600;
-}
-
 hr.about-separator {
     border: 1px thin white;
     width: 40%;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .person-img, .dog-img {
@@ -59,6 +57,7 @@ hr.about-separator {
     display: flex;
     flex-direction: column;
     width: 80vw;
+    padding-top: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,11 +66,7 @@ hr.about-separator {
     display: flex;
     align-items: center;
     gap: 10vw;
-    padding-bottom: 3vh;
-}
-
-.team-person > :nth-child(2) {
-    font-size: 4vw;
+    padding-bottom: 1rem;
 }
 
 .dog-img img {
@@ -88,7 +83,8 @@ hr.about-separator {
     margin-right: auto;
     justify-content: center;
     gap: 3.5rem;
-    padding-bottom: 3vh;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .dog-container {
@@ -99,14 +95,14 @@ hr.about-separator {
 
 .dog-container p {
     text-align: center;
-    padding-top: 1vh;
+    padding-top: 1rem;
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .about-text p {
-        font-size: 1.2rem;
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-text {
+        background-size: 30vw;
     }
 
     .team-container {
@@ -120,20 +116,8 @@ hr.about-separator {
         gap: 1rem;
     }
 
-    .team-person > :nth-child(2) {
-        font-size: 1.2rem;
-    }
-
-    .dog-container p {
-        font-size: 1.2rem;
-    }
-
-    h2 {
-        font-size: 4vw;
-    }
-
-    #about .headtext p {
-        font-size: 6vw;
+    #about h2 {
+        font-size: 1.7rem;
     }
 
     .person-img, .dog-img {
@@ -142,8 +126,8 @@ hr.about-separator {
     }
 }
 
-/* Large devices (Laptops/Desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
     .headtext p {
         font-size: 3vw;
     }
@@ -200,8 +184,8 @@ hr.about-separator {
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 1536px) {
     .about-text {
         background-size: 23vh;
     }
