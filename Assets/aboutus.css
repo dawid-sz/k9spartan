@@ -187,13 +187,13 @@ hr.about-separator {
     .about-text {
         width: 60vw;
         background-image: url("../Images/pawprintRotate.png");
-        background-size: 7vw;
+        background-size: 10vw;
         background-position: right;
     }
 
     .about-text p {
         width: 90%;
-        font-size: 1.3rem;       
+        font-size: 1.3rem;
     }
 
     h2 {
@@ -219,5 +219,16 @@ hr.about-separator {
 
     .team-person > :nth-child(2), .dog-container p {
         font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .about-text {
+        width: 45vw;
+        background-size: 7vw;
+    }
+
+    .about-text p {
+        text-align: left;
     }
 }

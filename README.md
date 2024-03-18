@@ -58,3 +58,9 @@ Working primarily on mobile view.
 
 17.03.2024
 - adjusting media query of news and contact section for tablets and desktop
+
+
+18.03.2024
+- small media query adjustments
+- linking profile pictures to the instagram accounts
+- added javascript function which detects if the page has ben scrolled on mobile devices, if yes and the hidden menu was displayed, it will get hidden again
