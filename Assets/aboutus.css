@@ -130,11 +130,13 @@ hr.about-separator {
 @media only screen and (min-width: 1024px) and (max-width: 1536px) {
     .headtext p {
         font-size: 3vw;
+        padding-bottom: 2rem;
     }
 
     .team-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        width: 50vw;
     }
 
     .team-person {
@@ -160,10 +162,6 @@ hr.about-separator {
         font-size: 1.5vw;
     }
 
-    .team-container {
-        width: 50vw;
-    }
-
     .person-img, .dog-img {
         width: 12vw;
         height: 12vw;
@@ -187,10 +185,39 @@ hr.about-separator {
 
 @media only screen and (min-width: 1536px) {
     .about-text {
-        background-size: 23vh;
+        width: 60vw;
+        background-image: url("../Images/pawprintRotate.png");
+        background-size: 7vw;
+        background-position: right;
     }
 
     .about-text p {
-        font-size: 1.3rem;
+        width: 90%;
+        font-size: 1.3rem;       
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .person-img, .dog-img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .team-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 50vw;
+    }
+
+    .team-person {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .team-person > :nth-child(2), .dog-container p {
+        font-size: 1.4rem;
     }
 }

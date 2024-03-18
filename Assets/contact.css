@@ -68,7 +68,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     font-family: var(--secondary-font);
-    padding-bottom: 4vh;
+    padding-bottom: 3rem;
   }
 }
 
@@ -79,4 +79,21 @@ textarea {
 }
 
 @media only screen and (min-width: 1536px) {
+  .contact-container {
+    width: 40vw;
+  }
+
+  .btn-send {
+    width: 9vw;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .contact-container {
+    width: 30vw;
+  }
+
+  .btn-send {
+    width: 5vw;
+  }
 }

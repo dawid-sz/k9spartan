@@ -161,6 +161,10 @@ hr.rounded {
         font-size: calc(21px + 0.390625vw);
     }
 
+    .headtext {
+        padding-bottom: 4rem;
+    }
+
     .topnav {
         display: flex;
         justify-content: space-between;

@@ -54,3 +54,7 @@ Working primarily on mobile view.
 
 16.03.2024
 - adjusting media query breakpoints for tablets
+
+
+17.03.2024
+- adjusting media query of news and contact section for tablets and desktop
