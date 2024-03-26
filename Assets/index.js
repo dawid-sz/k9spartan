@@ -14,6 +14,17 @@ window.addEventListener('touchmove', function() {
   let currentScrollPos = window.scrollY;
   if (prevScrollpos < currentScrollPos) {
     document.getElementById("myLinks").style.display= "none";
+  } else if (prevScrollpos > currentScrollPos) {
+    document.getElementById("myLinks").style.display= "none";
   }
   prevScrollpos = currentScrollPos;
+})
+
+//hide the menu after click on a button
+document.getElementById('myLinks').addEventListener('click', function() {
+  document.getElementById('myLinks').style.display = 'none';
+})
+
+document.getElementById('homeBtn').addEventListener('click', function() {
+  document.getElementById('myLinks').style.display = 'none';
 })

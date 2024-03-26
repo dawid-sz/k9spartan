@@ -64,3 +64,8 @@ Working primarily on mobile view.
 - small media query adjustments
 - linking profile pictures to the instagram accounts
 - added javascript function which detects if the page has ben scrolled on mobile devices, if yes and the hidden menu was displayed, it will get hidden again
+
+
+26.03.2024
+- added JS functions to hide the menu after the click on a button
+- adjusting the font sizes
