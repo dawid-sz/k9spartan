@@ -69,3 +69,10 @@ Working primarily on mobile view.
 26.03.2024
 - added JS functions to hide the menu after the click on a button
 - adjusting the font sizes
+
+
+02.04.2024
+- small hover animations added on the images and links in the hero section for desktop view
+- changed the colors of each section
+- faq section added
+- adjusting JS code to work also in tablet mode

@@ -13,7 +13,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background-color: #4b5320;
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,7 +34,7 @@ body {
 }
 
 .topnav a.icon {
-    background: black;
+    background: #4b5320;
     display: block;
     position: absolute;
     right: 0;
@@ -90,12 +90,18 @@ hr.rounded {
 .socials a {
     text-decoration: none;
     color: white;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center center;
+}
+
+.socials a:hover {
+    transform: scale(1.5);
 }
 
 .fixed-footer {
     text-align: center;
     padding: 10px;
-    background-color: black;
+    background-color: 4b5320;
     font-family: var(--primary-font);
     font-weight: 200;
 }

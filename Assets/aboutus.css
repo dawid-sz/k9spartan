@@ -1,5 +1,5 @@
 #about {
-    background-color: rgb(29,29,29);
+    background-color: #313615;
     color: white;
     font-family: var(--secondary-font);
 }
@@ -165,6 +165,14 @@ hr.about-separator {
     .person-img, .dog-img {
         width: 12vw;
         height: 12vw;
+        overflow: hidden;
+        transition: transform 0.5s, filter 0.5s ease-in-out;
+        transform-origin: center center;
+    }
+
+    .person-img:hover, .dog-img:hover {
+        filter: brightness(100%);
+        transform: scale(1.1);
     }
 
     .team-person > :nth-child(2) {
@@ -203,6 +211,15 @@ hr.about-separator {
     .person-img, .dog-img {
         width: 10vw;
         height: 10vw;
+        overflow: hidden;
+        transition: transform 0.5s, filter 0.5s ease-in-out;
+        transform-origin: center center;
+        filter: brightness(50%);
+    }
+
+    .person-img:hover, .dog-img:hover {
+        filter: brightness(100%);
+        transform: scale(1.1);
     }
 
     .team-container {

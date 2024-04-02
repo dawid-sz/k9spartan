@@ -1,0 +1,44 @@
+#faq {
+    background-color: rgb(214,214,214);
+    font-family: var(--secondary-font);
+}
+
+#faq h2 {
+    color: black;
+}
+
+.faq-section {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-item {
+    padding-bottom: 20px;
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer p {
+    margin-top: 0;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
+    .faq-section {
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .faq-section {
+        width: 40vw;
+        font-size: 1.3rem;
+    }
+}

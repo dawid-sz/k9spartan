@@ -21,10 +21,15 @@ window.addEventListener('touchmove', function() {
 })
 
 //hide the menu after click on a button
-document.getElementById('myLinks').addEventListener('click', function() {
-  document.getElementById('myLinks').style.display = 'none';
-})
 
-document.getElementById('homeBtn').addEventListener('click', function() {
-  document.getElementById('myLinks').style.display = 'none';
-})
+if (window.innerWidth < 768) {
+  document.getElementById('myLinks').addEventListener('click', function() {
+    document.getElementById('myLinks').style.display = 'none';
+  })
+}
+
+if (window.innerWidth < 768) {
+  document.getElementById('homeBtn').addEventListener('click', function() {
+    document.getElementById('myLinks').style.display = 'none';
+  });
+}

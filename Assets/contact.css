@@ -1,5 +1,5 @@
 #contact {
-    background-color: rgb(29,29,29);
+    background-color: #313615;
     color: white;
 }
 
@@ -24,7 +24,7 @@ textarea {
   border-left: 3px solid white;
   outline: none;
   color: white;
-  background-color: rgb(29,29,29);
+  background-color: #313615;
 }
 
 .contact-container {
@@ -40,7 +40,7 @@ textarea {
 }
 
 .btn-send {
-  background-color: rgb(29,29,29);
+  background-color: #313615;
   color: white;
   padding: 12px 20px;
   border: none;
