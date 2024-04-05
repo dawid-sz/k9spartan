@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     background-color: #4b5320;
     position: fixed;
-    top: 0;
+    top: 38px;
     width: 100%;
     font-family: var(--primary-font);
     font-weight: 200;
@@ -186,6 +186,7 @@ hr.rounded {
     .topnav {
         display: flex;
         justify-content: space-between;
+        top: 50px;
     }
 
     .topnav #myLinks {

@@ -1,0 +1,62 @@
+.info-bar {
+    background-color: red;
+    color: white;
+    font-family: var(--secondary-font);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.floating-text {
+    display: inline-block;
+    animation: floatText 10s linear infinite;
+}
+
+@keyframes floatText {
+    0% {
+        transform: translateX(110%);
+    }
+    100% {
+        transform: translateX(-110%);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    @keyframes floatText {
+        0% {
+            transform: translateX(200%);
+        }
+        100% {
+            transform: translateX(-110%);
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
+    @keyframes floatText {
+        0% {
+            transform: translateX(270%);
+        }
+        100% {
+            transform: translateX(-110%);
+        }
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .floating-text {
+        animation: floatText 20s linear infinite;
+    }
+
+    @keyframes floatText {
+        0% {
+            transform: translateX(380%);
+        }
+        100% {
+            transform: translateX(-110%);
+        }
+    }
+}

@@ -76,3 +76,7 @@ Working primarily on mobile view.
 - changed the colors of each section
 - faq section added
 - adjusting JS code to work also in tablet mode
+
+
+06.04.2024
+- added info bar in red color for upcoming events
