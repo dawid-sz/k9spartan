@@ -1,5 +1,5 @@
 #about {
-    background-color: #313615;
+    background-color: var(--primary-color);
     color: white;
     font-family: var(--secondary-font);
 }

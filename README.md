@@ -80,3 +80,8 @@ Working primarily on mobile view.
 
 06.04.2024
 - added info bar in red color for upcoming events
+
+
+25.06.2024
+- adding variables and assigning colors to it for better management
+- adding new section with a map

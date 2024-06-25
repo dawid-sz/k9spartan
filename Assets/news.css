@@ -1,5 +1,5 @@
 #news {
-    background-color: #d6d6d6;
+    background-color: var(--secondary-color);
     font-family: var(--secondary-font);
 }
 
