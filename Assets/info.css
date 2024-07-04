@@ -8,6 +8,7 @@
     left: 0;
     width: 100%;
     z-index: 3;
+    display: none; /* delete this and set top for .topnav to make it visible */
 }
 
 .floating-text {

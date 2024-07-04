@@ -1,6 +1,7 @@
 #faq {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-family: var(--secondary-font);
+    padding-bottom: 2rem;
 }
 
 #faq h2 {

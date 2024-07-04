@@ -1,6 +1,7 @@
 #news {
     background-color: var(--secondary-color);
     font-family: var(--secondary-font);
+    padding-bottom: 2rem;
 }
 
 #news h2 {

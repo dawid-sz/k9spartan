@@ -4,7 +4,7 @@
 :root {
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: 'Karla', serif;
-    --primary-color: #463f3a;
+    --primary-color: #bcb8b1;
     --secondary-color: #d6d6d6;
     scroll-behavior: smooth;
 }
@@ -17,7 +17,6 @@ body {
     overflow: hidden;
     background-color: var(--primary-color);
     position: fixed;
-    top: 38px;
     width: 100%;
     font-family: var(--primary-font);
     font-weight: 200;
@@ -103,7 +102,7 @@ hr.rounded {
 .fixed-footer {
     text-align: center;
     padding: 10px;
-    background-color: #463f3a;
+    background-color: var(--primary-color);
     font-family: var(--primary-font);
     font-weight: 200;
     padding-top: 2rem;
