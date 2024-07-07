@@ -17,8 +17,39 @@
 
 .address {
     font-size: 1.1rem;
-    color: white;
+    color: black;
     font-family: var(--secondary-font);
     margin-left: 10vw;
     margin-top: 1.5rem;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .maps {
+        width: 60vw;
+    }
+
+    .address {
+        margin-left: 20vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
+    .maps {
+        width: 50vw;
+    }
+
+    .address {
+        margin-left: 25vw;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .maps {
+        width: 30vw;
+    }
+
+    .address {
+        margin-left: 35vw;
+    }
 }

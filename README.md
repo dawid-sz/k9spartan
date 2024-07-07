@@ -85,3 +85,8 @@ Working primarily on mobile view.
 25.06.2024
 - adding variables and assigning colors to it for better management
 - adding new section with a map
+
+
+07.07.2024
+- adjusting colors
+- adjusting sections structures

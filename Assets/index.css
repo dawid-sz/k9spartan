@@ -6,6 +6,8 @@
     --secondary-font: 'Karla', serif;
     --primary-color: #bcb8b1;
     --secondary-color: #d6d6d6;
+    --title-color: black;
+    --items-color: black;
     scroll-behavior: smooth;
 }
 
@@ -28,7 +30,7 @@ body {
 }
 
 .topnav a {
-    color: white;
+    color: var(--title-color);
     padding: 14px 16px;
     text-decoration: none;
     display: block;
@@ -73,6 +75,7 @@ div.text h1:nth-child(1) {
 div.text h2:nth-child(2) {
     font-weight: 700;
     font-size: 7vw;
+    color: white;
 }
 
 hr.rounded {
@@ -110,7 +113,7 @@ hr.rounded {
 
 .fixed-footer a {
     text-decoration: none;
-    color: white;
+    color: var(--items-color);
 }
 
 .fixed-footer {
@@ -188,7 +191,7 @@ hr.rounded {
     .topnav {
         display: flex;
         justify-content: space-between;
-        top: 50px;
+        /* top: 50px; */
     }
 
     .topnav #myLinks {
