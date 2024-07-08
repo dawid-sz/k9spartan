@@ -91,6 +91,60 @@ hr.rounded {
     margin-top: 1rem;
 }
 
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-15px);
+    }
+    15% {
+        transform: translateY(-3px);
+    }
+    20% {
+        transform: translateY(-8px);
+    }
+    40%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-10px);
+    }
+    15% {
+        transform: translateY(-5px);
+    }
+    20% {
+        transform: translateY(-7px);
+    }
+    40%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes bounce3 {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-17px);
+    }
+    15% {
+        transform: translateY(-5px);
+    }
+    20% {
+        transform: translateY(-8px);
+    }
+    40%, 100% {
+        transform: none;
+    }
+}
+
 .socials a {
     text-decoration: none;
     color: white;
@@ -118,6 +172,24 @@ hr.rounded {
 
 .fixed-footer {
     font-size: .8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .socials a:nth-child(1) {
+        animation: bounce 5s infinite;
+    }
+
+    .socials a:nth-child(2) {
+        animation: bounce2 4s infinite;
+    }
+
+    .socials a:nth-child(3) {
+        animation: bounce3 6s infinite;
+    }
+
+    .socials a:nth-child(4) {
+        animation: bounce 3s infinite;
+    }
 }
   
 

@@ -90,3 +90,7 @@ Working primarily on mobile view.
 07.07.2024
 - adjusting colors
 - adjusting sections structures
+
+
+08.07.2024
+- animating icons
