@@ -94,3 +94,7 @@ Working primarily on mobile view.
 
 08.07.2024
 - animating icons
+
+
+28.07.2024
+- adjusted navbar to get background color on scroll

@@ -6,6 +6,7 @@
     --secondary-font: 'Karla', serif;
     --primary-color: #bcb8b1;
     --secondary-color: #d6d6d6;
+    --navbar-color: white;
     --title-color: black;
     --items-color: black;
     scroll-behavior: smooth;
@@ -17,12 +18,16 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: var(--primary-color);
     position: fixed;
     width: 100%;
     font-family: var(--primary-font);
-    font-weight: 200;
+    font-weight: 400;
     z-index: 2;
+    transition: background-color 200ms;
+}
+
+#navbar.sticking {
+    background-color: var(--navbar-color);
 }
   
 .topnav #myLinks {
@@ -37,7 +42,6 @@ body {
 }
 
 .topnav a.icon {
-    background: var(--primary-color);
     display: block;
     position: absolute;
     right: 0;
