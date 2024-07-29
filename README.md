@@ -98,3 +98,7 @@ Working primarily on mobile view.
 
 28.07.2024
 - adjusted navbar to get background color on scroll
+
+
+29.07.2024
+- adjusting the navbar colors and look on scroll

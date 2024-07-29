@@ -6,8 +6,9 @@
     --secondary-font: 'Karla', serif;
     --primary-color: #bcb8b1;
     --secondary-color: #d6d6d6;
-    --navbar-color: white;
+    --navbar-color: rgba(0, 0, 0, 0.582);
     --title-color: black;
+    --links-color: white;
     --items-color: black;
     scroll-behavior: smooth;
 }
@@ -24,6 +25,7 @@ body {
     font-weight: 400;
     z-index: 2;
     transition: background-color 200ms;
+    color: white;
 }
 
 #navbar.sticking {
@@ -35,7 +37,7 @@ body {
 }
 
 .topnav a {
-    color: var(--title-color);
+    color: var(--links-color);
     padding: 14px 16px;
     text-decoration: none;
     display: block;

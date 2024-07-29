@@ -25,7 +25,7 @@ window.addEventListener('touchmove', function() {
 if (window.innerWidth < 768) {
   document.getElementById('myLinks').addEventListener('click', function() {
     document.getElementById('myLinks').style.display = 'none';
-  })
+  });
 }
 
 if (window.innerWidth < 768) {
@@ -38,14 +38,15 @@ if (window.innerWidth < 768) {
 // change the navbar color on scroll 
 
 const mainNavbar = document.querySelector('#navbar');
-const menuBtn = document.querySelector('#menuBtn');
 const scrollWatcher = document.createElement('div');
 
 scrollWatcher.setAttribute('data-scroll-watcher', '');
 mainNavbar.before(scrollWatcher);
 
 const navObserver = new IntersectionObserver((entries) => {
-  mainNavbar.classList.toggle('sticking', !entries[0].isIntersecting)
+  const isSticking = !entries[0].isIntersecting;
+  //toggle the class for the navbar
+  mainNavbar.classList.toggle('sticking', isSticking);
 }, {rootMargin: "90% 0px 0px 0px"});
 
 navObserver.observe(scrollWatcher);
